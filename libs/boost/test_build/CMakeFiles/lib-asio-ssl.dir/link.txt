@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib-asio-ssl.a CMakeFiles/lib-asio-ssl.dir/test/lib_asio_ssl.cpp.o
+/usr/bin/ranlib liblib-asio-ssl.a

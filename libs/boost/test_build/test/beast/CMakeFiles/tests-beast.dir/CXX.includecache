@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kudakov/boost/libs/beast/test/beast/core.cpp
+Windows.h
+-
+boost/beast/core.hpp
+-
+
+/home/kudakov/boost/libs/beast/test/beast/http.cpp
+Windows.h
+-
+boost/beast/http.hpp
+-
+
+/home/kudakov/boost/libs/beast/test/beast/ssl.cpp
+Windows.h
+-
+boost/beast/ssl.hpp
+-
+
+/home/kudakov/boost/libs/beast/test/beast/version.cpp
+Windows.h
+-
+boost/beast/version.hpp
+-
+
+/home/kudakov/boost/libs/beast/test/beast/websocket.cpp
+Windows.h
+-
+boost/beast/websocket.hpp
+-
+
+/home/kudakov/boost/libs/beast/test/beast/zlib.cpp
+Windows.h
+-
+boost/beast/zlib.hpp
+-
+

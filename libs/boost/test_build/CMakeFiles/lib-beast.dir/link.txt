@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib-beast.a CMakeFiles/lib-beast.dir/test/lib_beast.cpp.o
+/usr/bin/ranlib liblib-beast.a

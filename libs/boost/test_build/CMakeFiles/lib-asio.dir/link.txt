@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblib-asio.a CMakeFiles/lib-asio.dir/test/lib_asio.cpp.o
+/usr/bin/ranlib liblib-asio.a

@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kudakov/boost/libs/beast/test/beast/_experimental/error.cpp
+boost/beast/_experimental/test/error.hpp
+-
+
+/home/kudakov/boost/libs/beast/test/beast/_experimental/icy_stream.cpp
+boost/beast/_experimental/http/icy_stream.hpp
+-
+boost/beast/core/buffers_adaptor.hpp
+-
+boost/beast/core/buffers_to_string.hpp
+-
+boost/beast/core/read_size.hpp
+-
+boost/beast/_experimental/test/stream.hpp
+-
+boost/beast/_experimental/unit_test/suite.hpp
+-
+array
+-
+memory
+-
+string
+-
+
+/home/kudakov/boost/libs/beast/test/beast/_experimental/stream.cpp
+boost/beast/_experimental/test/stream.hpp
+-
+boost/beast/_experimental/unit_test/suite.hpp
+-
+boost/beast/_experimental/test/handler.hpp
+-
+boost/asio/ssl/stream.hpp
+-
+boost/asio/use_awaitable.hpp
+-
+
